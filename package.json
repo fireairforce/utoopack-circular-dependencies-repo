@@ -9,11 +9,13 @@
     "start": "npm run dev"
   },
   "dependencies": {
+    "@antv/g-canvas": "0.5.17",
     "umi": "^4.6.26"
   },
   "devDependencies": {
     "@types/react": "^18.0.33",
     "@types/react-dom": "^18.0.11",
     "typescript": "^5.0.3"
-  }
+  },
+  "repository": "git@github.com:fireairforce/utoopack-circular-dependencies-repo.git"
 }

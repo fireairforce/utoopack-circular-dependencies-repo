@@ -1,4 +1,7 @@
 import yayJpg from '../assets/yay.jpg';
+import { Shape } from '@antv/g-canvas';
+
+Shape;
 
 export default function HomePage() {
   return (

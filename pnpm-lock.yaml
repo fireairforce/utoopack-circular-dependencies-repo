@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@antv/g-canvas':
+        specifier: 0.5.17
+        version: 0.5.17
       umi:
         specifier: ^4.6.26
         version: 4.6.26(@babel/core@7.29.0)(@types/node@25.2.0)(@types/react@18.3.27)(eslint@8.57.1)(less-loader@12.3.0(less@4.5.1)(webpack@5.105.0))(less@4.5.1)(lightningcss@1.22.1)(prettier@3.8.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(resolve-url-loader@5.0.0)(rollup@3.29.5)(sass-loader@16.0.6(sass@1.54.0)(webpack@5.105.0))(sass@1.54.0)(stylelint@14.16.1)(terser@5.46.0)(type-fest@0.20.2)(typescript@5.9.3)(webpack@5.105.0)
@@ -33,6 +36,30 @@ packages:
 
   '@antfu/utils@0.7.10':
     resolution: {integrity: sha512-+562v9k4aI80m1+VuMHehNJWLOFjBnXn3tdOitzD0il5b7smkSBal4+a3oKiQTbrwMmN/TBUMDvbdoWDehgOww==, tarball: https://registry.npmjs.org/@antfu/utils/-/utils-0.7.10.tgz}
+
+  '@antv/event-emitter@0.1.3':
+    resolution: {integrity: sha512-4ddpsiHN9Pd4UIlWuKVK1C4IiZIdbwQvy9i7DUSI3xNJ89FPUFt8lxDYj8GzzfdllV0NkJTRxnG+FvLk0llidg==, tarball: https://registry.npmjs.org/@antv/event-emitter/-/event-emitter-0.1.3.tgz}
+
+  '@antv/g-base@0.5.16':
+    resolution: {integrity: sha512-jP06wggTubDPHXoKwFg3/f1lyxBX9ywwN3E/HG74Nd7DXqOXQis8tsIWW+O6dS/h9vyuXLd1/wDWkMMm3ZzXdg==, tarball: https://registry.npmjs.org/@antv/g-base/-/g-base-0.5.16.tgz}
+
+  '@antv/g-canvas@0.5.17':
+    resolution: {integrity: sha512-sXYJMWTOlb/Ycb6sTKu00LcJqInXJY4t99+kSM40u2OfqrXYmaXDjHR7D2V0roMkbK/QWiWS9UnEidCR1VtMOA==, tarball: https://registry.npmjs.org/@antv/g-canvas/-/g-canvas-0.5.17.tgz}
+
+  '@antv/g-math@0.1.9':
+    resolution: {integrity: sha512-KHMSfPfZ5XHM1PZnG42Q2gxXfOitYveNTA7L61lR6mhZ8Y/aExsYmHqaKBsSarU0z+6WLrl9C07PQJZaw0uljQ==, tarball: https://registry.npmjs.org/@antv/g-math/-/g-math-0.1.9.tgz}
+
+  '@antv/matrix-util@3.0.4':
+    resolution: {integrity: sha512-BAPyu6dUliHcQ7fm9hZSGKqkwcjEDVLVAstlHULLvcMZvANHeLXgHEgV7JqcAV/GIhIz8aZChIlzM1ZboiXpYQ==, tarball: https://registry.npmjs.org/@antv/matrix-util/-/matrix-util-3.0.4.tgz}
+
+  '@antv/matrix-util@3.1.0-beta.3':
+    resolution: {integrity: sha512-W2R6Za3A6CmG51Y/4jZUM/tFgYSq7vTqJL1VD9dKrvwxS4sE0ZcXINtkp55CdyBwJ6Cwm8pfoRpnD4FnHahN0A==, tarball: https://registry.npmjs.org/@antv/matrix-util/-/matrix-util-3.1.0-beta.3.tgz}
+
+  '@antv/path-util@2.0.15':
+    resolution: {integrity: sha512-R2VLZ5C8PLPtr3VciNyxtjKqJ0XlANzpFb5sE9GE61UQqSRuSVSzIakMxjEPrpqbgc+s+y8i+fmc89Snu7qbNw==, tarball: https://registry.npmjs.org/@antv/path-util/-/path-util-2.0.15.tgz}
+
+  '@antv/util@2.0.17':
+    resolution: {integrity: sha512-o6I9hi5CIUvLGDhth0RxNSFDRwXeywmt6ExR4+RmVAzIi48ps6HUy+svxOCayvrPBN37uE6TAc2KDofRo0nK9Q==, tarball: https://registry.npmjs.org/@antv/util/-/util-2.0.17.tgz}
 
   '@babel/code-frame@7.22.5':
     resolution: {integrity: sha512-Xmwn266vad+6DAqEB2A6V/CcZVp62BbwVmcOJc2RPuwih1kw02TjQvWVWlcKGbBPd+8/0V5DEkOcizRGYsspYQ==, tarball: https://registry.npmjs.org/@babel/code-frame/-/code-frame-7.22.5.tgz}
@@ -946,6 +973,9 @@ packages:
 
   '@types/babel__traverse@7.28.0':
     resolution: {integrity: sha512-8PvcXf70gTDZBgt9ptxJ8elBeBjcLOAcOtoO/mPJjtji1+CdGbHgm77om1GrsPxsiE+uXIpNSK64UYaIwQXd4Q==, tarball: https://registry.npmjs.org/@types/babel__traverse/-/babel__traverse-7.28.0.tgz}
+
+  '@types/d3-timer@2.0.3':
+    resolution: {integrity: sha512-jhAJzaanK5LqyLQ50jJNIrB8fjL9gwWZTgYjevPvkDLMU+kTAZkYsobI59nYoeSrH1PucuyJEi247Pb90t6XUg==, tarball: https://registry.npmjs.org/@types/d3-timer/-/d3-timer-2.0.3.tgz}
 
   '@types/eslint-scope@3.7.7':
     resolution: {integrity: sha512-MzMFlSLBqNF2gcHWO0G1vP/YQyfvrxZ0bF+u7mzUdZ1/xK4A4sru+nraZz5i3iEIk1l1uyicaDVTB4QbbEkAYg==, tarball: https://registry.npmjs.org/@types/eslint-scope/-/eslint-scope-3.7.7.tgz}
@@ -1956,6 +1986,20 @@ packages:
   current-script-polyfill@1.0.0:
     resolution: {integrity: sha512-qv8s+G47V6Hq+g2kRE5th+ASzzrL7b6l+tap1DHKK25ZQJv3yIFhH96XaQ7NGL+zRW3t/RDbweJf/dJDe5Z5KA==, tarball: https://registry.npmjs.org/current-script-polyfill/-/current-script-polyfill-1.0.0.tgz}
 
+  d3-color@3.1.0:
+    resolution: {integrity: sha512-zg/chbXyeBtMQ1LbD/WSoW2DpC3I0mpmPdW+ynRTj/x2DAWYrIY7qeZIHidozwV24m4iavr15lNwIwLxRmOxhA==, tarball: https://registry.npmjs.org/d3-color/-/d3-color-3.1.0.tgz}
+    engines: {node: '>=12'}
+
+  d3-ease@1.0.7:
+    resolution: {integrity: sha512-lx14ZPYkhNx0s/2HX5sLFUI3mbasHjSSpwO/KaaNACweVwxUruKyWVcb293wMv1RqTPZyZ8kSZ2NogUZNcLOFQ==, tarball: https://registry.npmjs.org/d3-ease/-/d3-ease-1.0.7.tgz}
+
+  d3-interpolate@3.0.1:
+    resolution: {integrity: sha512-3bYs1rOD33uo8aqJfKP3JWPAibgw8Zm2+L9vBKEHJ2Rg+viTR7o5Mmv5mZcieN+FRYaAOWX5SJATX6k1PWz72g==, tarball: https://registry.npmjs.org/d3-interpolate/-/d3-interpolate-3.0.1.tgz}
+    engines: {node: '>=12'}
+
+  d3-timer@1.0.10:
+    resolution: {integrity: sha512-B1JDm0XDaQC+uvo4DT79H0XmBskgS3l6Ve+1SBCfxgmtIb1AVrPIoqd+nPSv+loMX8szQ0sVUhGngL7D5QPiXw==, tarball: https://registry.npmjs.org/d3-timer/-/d3-timer-1.0.10.tgz}
+
   data-uri-to-buffer@4.0.1:
     resolution: {integrity: sha512-0R9ikRb668HB7QDxT1vkpuUBtqc53YyAwMwGeUFKRojY/NWKvdZ+9UYtRfGmhqNbRkTSVpMbmyhXipFFv2cb/A==, tarball: https://registry.npmjs.org/data-uri-to-buffer/-/data-uri-to-buffer-4.0.1.tgz}
     engines: {node: '>= 12'}
@@ -2061,6 +2105,9 @@ packages:
   destroy@1.2.0:
     resolution: {integrity: sha512-2sJGJTaXIIaR1w4iJSNoN0hnMY7Gpc/n8D4qSCJw8QqFWXf7cuAgnEHxBpweaVcPevC2l3KpjYCx3NypQQgaJg==, tarball: https://registry.npmjs.org/destroy/-/destroy-1.2.0.tgz}
     engines: {node: '>= 0.8', npm: 1.2.8000 || >= 1.4.16}
+
+  detect-browser@5.3.0:
+    resolution: {integrity: sha512-53rsFbGdwMwlF7qvCt0ypLM5V5/Mbl0szB7GPN8y9NCcbknYOeVVXdrXEq+90IwAfrrzt6Hd+u2E2ntakICU8w==, tarball: https://registry.npmjs.org/detect-browser/-/detect-browser-5.3.0.tgz}
 
   detect-indent@7.0.2:
     resolution: {integrity: sha512-y+8xyqdGLL+6sh0tVeHcfP/QDd8gUgbasolJJpY7NgeQGSZ739bDtSiaiDgtoicy+mtYB81dKLxO9xRhCyIB3A==, tarball: https://registry.npmjs.org/detect-indent/-/detect-indent-7.0.2.tgz}
@@ -2577,6 +2624,9 @@ packages:
 
   git-hooks-list@3.2.0:
     resolution: {integrity: sha512-ZHG9a1gEhUMX1TvGrLdyWb9kDopCBbTnI8z4JgRMYxsijWipgjSEYoPWqBuIB0DnRnvqlQSEeVmzpeuPm7NdFQ==, tarball: https://registry.npmjs.org/git-hooks-list/-/git-hooks-list-3.2.0.tgz}
+
+  gl-matrix@3.4.4:
+    resolution: {integrity: sha512-latSnyDNt/8zYUB6VIJ6PCh2jBjJX6gnDsoCZ7LyW7GkqrD51EWwa9qCoGixj8YqBtETQK/xY7OmpTF8xz1DdQ==, tarball: https://registry.npmjs.org/gl-matrix/-/gl-matrix-3.4.4.tgz}
 
   glob-parent@5.1.2:
     resolution: {integrity: sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow==, tarball: https://registry.npmjs.org/glob-parent/-/glob-parent-5.1.2.tgz}
@@ -5000,6 +5050,60 @@ snapshots:
 
   '@antfu/utils@0.7.10': {}
 
+  '@antv/event-emitter@0.1.3': {}
+
+  '@antv/g-base@0.5.16':
+    dependencies:
+      '@antv/event-emitter': 0.1.3
+      '@antv/g-math': 0.1.9
+      '@antv/matrix-util': 3.1.0-beta.3
+      '@antv/path-util': 2.0.15
+      '@antv/util': 2.0.17
+      '@types/d3-timer': 2.0.3
+      d3-ease: 1.0.7
+      d3-interpolate: 3.0.1
+      d3-timer: 1.0.10
+      detect-browser: 5.3.0
+      tslib: 2.8.1
+
+  '@antv/g-canvas@0.5.17':
+    dependencies:
+      '@antv/g-base': 0.5.16
+      '@antv/g-math': 0.1.9
+      '@antv/matrix-util': 3.1.0-beta.3
+      '@antv/path-util': 2.0.15
+      '@antv/util': 2.0.17
+      gl-matrix: 3.4.4
+      tslib: 2.8.1
+
+  '@antv/g-math@0.1.9':
+    dependencies:
+      '@antv/util': 2.0.17
+      gl-matrix: 3.4.4
+
+  '@antv/matrix-util@3.0.4':
+    dependencies:
+      '@antv/util': 2.0.17
+      gl-matrix: 3.4.4
+      tslib: 2.8.1
+
+  '@antv/matrix-util@3.1.0-beta.3':
+    dependencies:
+      '@antv/util': 2.0.17
+      gl-matrix: 3.4.4
+      tslib: 2.8.1
+
+  '@antv/path-util@2.0.15':
+    dependencies:
+      '@antv/matrix-util': 3.0.4
+      '@antv/util': 2.0.17
+      tslib: 2.8.1
+
+  '@antv/util@2.0.17':
+    dependencies:
+      csstype: 3.2.3
+      tslib: 2.8.1
+
   '@babel/code-frame@7.22.5':
     dependencies:
       '@babel/highlight': 7.25.9
@@ -5883,6 +5987,8 @@ snapshots:
   '@types/babel__traverse@7.28.0':
     dependencies:
       '@babel/types': 7.29.0
+
+  '@types/d3-timer@2.0.3': {}
 
   '@types/eslint-scope@3.7.7':
     dependencies:
@@ -7293,6 +7399,16 @@ snapshots:
 
   current-script-polyfill@1.0.0: {}
 
+  d3-color@3.1.0: {}
+
+  d3-ease@1.0.7: {}
+
+  d3-interpolate@3.0.1:
+    dependencies:
+      d3-color: 3.1.0
+
+  d3-timer@1.0.10: {}
+
   data-uri-to-buffer@4.0.1: {}
 
   data-view-buffer@1.0.2:
@@ -7380,6 +7496,8 @@ snapshots:
   destroy@1.0.4: {}
 
   destroy@1.2.0: {}
+
+  detect-browser@5.3.0: {}
 
   detect-indent@7.0.2: {}
 
@@ -8099,6 +8217,8 @@ snapshots:
       resolve-pkg-maps: 1.0.0
 
   git-hooks-list@3.2.0: {}
+
+  gl-matrix@3.4.4: {}
 
   glob-parent@5.1.2:
     dependencies:
