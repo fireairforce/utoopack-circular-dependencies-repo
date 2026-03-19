@@ -19,7 +19,7 @@
   },
   "pnpm": {
     "overrides": {
-      "@utoo/pack": "1.3.2"
+      "@utoo/pack": "1.3.3-alpha.0"
     }
   },
   "repository": "git@github.com:fireairforce/utoopack-circular-dependencies-repo.git"
