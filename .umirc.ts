@@ -5,11 +5,6 @@ export default defineConfig({
     { path: "/", component: "index" },
   ],
   npmClient: 'pnpm',
-  utoopack: {
-    optimization: {
-      moduleIds: "named",
-      concatenateModules: false,
-    }
-  }
+  utoopack: {}
   // mako: {}
 });
